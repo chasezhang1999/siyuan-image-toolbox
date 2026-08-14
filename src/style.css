@@ -1,0 +1,32 @@
+.image-to-excalidraw-settings {
+  padding: 16px 20px 20px;
+}
+
+.image-to-excalidraw-settings__intro {
+  color: var(--b3-theme-on-surface);
+  line-height: 1.65;
+  margin: 0 0 14px;
+}
+
+.image-to-excalidraw-settings .b3-label {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.image-to-excalidraw-settings__actions {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+  margin-top: 18px;
+}
+
+.image-to-excalidraw-progress {
+  padding: 20px;
+  line-height: 1.65;
+}
+
+.image-to-excalidraw-progress progress {
+  box-sizing: border-box;
+  margin-top: 14px;
+  width: 100%;
+}
