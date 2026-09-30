@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160">
+  <defs>
+    <clipPath id="card"><rect x="6" y="6" width="148" height="148" rx="34"/></clipPath>
+    <clipPath id="light"><rect x="0" y="0" width="80" height="160"/></clipPath>
+    <clipPath id="dark"><rect x="80" y="0" width="80" height="160"/></clipPath>
+    <g id="scene" fill="none" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="28" y="36" width="104" height="88" rx="14"/>
+      <path d="M36 110l26-27 18 18 17-19 27 28"/>
+    </g>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect x="0" y="0" width="80" height="160" fill="#f4f6fa"/>
+    <rect x="80" y="0" width="80" height="160" fill="#262a33"/>
+    <!-- The same picture drawn twice: dark lines on the light half, light lines on the dark half. -->
+    <use href="#scene" stroke="#2b3038" clip-path="url(#light)"/>
+    <use href="#scene" stroke="#e6eaf2" clip-path="url(#dark)"/>
+    <!-- Colours keep their hue across the split, like invert + hue-rotate. -->
+    <circle cx="56" cy="62" r="9" fill="#f5a623"/>
+    <!-- An Excalidraw-style annotation box. -->
+    <rect x="84" y="66" width="42" height="32" rx="6" fill="none" stroke="#e03131" stroke-width="5" transform="rotate(-6 105 82)"/>
+  </g>
+  <!-- A hairline edge so the light half still reads on white backgrounds. -->
+  <rect x="7" y="7" width="146" height="146" rx="33" fill="none" stroke="#d5dae3" stroke-width="2"/>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif">
+  <rect width="1280" height="640" fill="#f7f8fa"/>
+  <image href="icon.svg" x="96" y="200" width="240" height="240"/>
+  <text x="400" y="232" font-size="64" font-weight="700" fill="#1f2329">图片工具箱</text>
+  <text x="402" y="282" font-size="28" fill="#646a73">Image Toolbox for SiYuan</text>
+  <g font-size="30" fill="#1f2329">
+    <circle cx="412" cy="355" r="7" fill="#3575f0"/>
+    <text x="436" y="366">深色模式下图片自动反色，单张可设例外，可临时或永久关闭</text>
+    <circle cx="412" cy="417" r="7" fill="#e03131"/>
+    <text x="436" y="428">右键把图片转成 Excalidraw 画布，转完直接开始标注</text>
+    <circle cx="412" cy="479" r="7" fill="#f5a623"/>
+    <text x="436" y="490">没标注的画布一键还原成普通图片，还能撤销</text>
+  </g>
+</svg>

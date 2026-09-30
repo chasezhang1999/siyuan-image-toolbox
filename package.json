@@ -1,9 +1,9 @@
 {
   "name": "siyuan-image-to-excalidraw",
-  "version": "0.1.1",
+  "version": "0.3.0",
   "private": true,
   "type": "module",
-  "description": "Convert pasted or existing SiYuan images into editable Excalidraw SVG assets.",
+  "description": "SiYuan image toolbox: dark-mode image inversion and on-demand Excalidraw annotation.",
   "license": "MIT",
   "scripts": {
     "check": "tsc --noEmit",

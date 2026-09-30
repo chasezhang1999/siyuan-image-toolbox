@@ -1,24 +1,24 @@
 {
   "name": "siyuan-image-to-excalidraw",
   "author": "chasezhang1999",
-  "url": "https://github.com/chasezhang1999/siyuan-image-to-excalidraw",
-  "version": "0.1.1",
+  "url": "https://github.com/chasezhang1999/siyuan-image-toolbox",
+  "version": "0.3.0",
   "minAppVersion": "3.7.0",
   "kernels": ["windows", "linux", "darwin", "ios", "android", "harmony", "docker"],
   "backends": ["windows", "linux", "darwin", "ios", "android", "harmony", "docker"],
   "frontends": ["desktop", "mobile", "browser-desktop", "browser-mobile", "desktop-window"],
   "disabledInPublish": true,
   "displayName": {
-    "default": "Image to Excalidraw",
-    "zh_CN": "图片转 Excalidraw"
+    "default": "Image Toolbox",
+    "zh_CN": "图片工具箱"
   },
   "description": {
-    "default": "Convert pasted images and images in the current document to editable Excalidraw SVG assets.",
-    "zh_CN": "将粘贴图片及当前文档中的图片转换为可继续标注的 Excalidraw SVG。"
+    "default": "Dark-mode image inversion with per-image exceptions, plus on-demand Excalidraw annotation that can be undone.",
+    "zh_CN": "深色模式下图片自动反色（可单张例外）；需要时把图片转成 Excalidraw 画布标注，没标注的可还原。"
   },
   "readme": {
     "default": "README.md",
     "zh_CN": "README.zh-CN.md"
   },
-  "keywords": ["excalidraw", "image", "annotation", "图片", "标注"]
+  "keywords": ["image", "dark mode", "invert", "excalidraw", "annotation", "图片", "深色模式", "反色", "标注"]
 }
